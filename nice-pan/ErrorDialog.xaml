@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:nice_pan"
         mc:Ignorable="d"
-        Title="ErrorDialog" Height="450" Width="800">
+        Title="ErrorDialog" Height="260" Width="400">
     <Grid>
+        <Grid>
+            <Image Source="/Resources/error.jpg" Stretch="Fill"/>
+            <TextBlock Text="Peeky Blinkers already running !" Margin="70,222,115,-17" FontSize="15" Foreground="AliceBlue"/>
+            <Button Name="BtnClose" Content="Close" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,220,0,0" Height="25" Width="60" Foreground="IndianRed"/>
+        </Grid>
         
     </Grid>
 </Window>
